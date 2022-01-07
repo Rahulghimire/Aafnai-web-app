@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500;600;900&display=swap');
+
+.container{
+    height: 90px;
+    padding:0px 50px;
+    background-color: rgb(138, 223, 252);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+}
+.logo{
+    margin-top: 20px;
+    padding: 2px;
+}
+.list{
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    color: white;
+}
+.listItem{
+    font-family: 'Catamaran', sans-serif;;
+    margin: 20px;
+    font-weight: 400;
+    
+}

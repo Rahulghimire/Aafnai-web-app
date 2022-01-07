@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-
+import Homepage from "../components/Homepage";
 export default function Home() {
   return (
     <div>
@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" content="Get your own E-commerce site today" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      Homepage
+      <Homepage />
     </div>
   );
 }
