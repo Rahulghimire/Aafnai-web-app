@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../styles/Navbar.module.css";
 import Image from "next/image";
-import Login from "./Login";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -25,7 +24,11 @@ const Navbar = () => {
             <Link href="/contact">
               <a className={styles.listItem}>Contact Us</a>
             </Link>
-            <Login />
+            <div className={styles.login}>
+              <Link href="/login">
+                <a className={styles.button_1}>LogIn / SignUp</a>
+              </Link>
+            </div>
           </ul>
         </div>
       </div>

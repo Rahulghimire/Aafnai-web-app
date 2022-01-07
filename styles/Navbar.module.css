@@ -21,16 +21,28 @@
     color: white;
 }
 .listItem{
-    font-family: 'Catamaran', sans-serif;;
+    font-family: 'Catamaran', sans-serif;
     margin: 20px;
     font-weight: 400;
     font-size: 24px;
     color: #000000;
 }
+ /* Footer */
+ .footer{
+    position: relative;
+    top: 60px;
+    left: 10px;
+    font-family: 'Catamaran', sans-serif;
+    left: 170px;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+/* Login/sign in */
 .login{
     margin-left: 350px;
     display: inline-block;
  }
- .button_1{
-     text-decoration: none;
- }
+.button_1{
+    color: rgb(2, 217, 255);
+    font-size: 20px;
+}
