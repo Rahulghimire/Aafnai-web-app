@@ -1,0 +1,49 @@
+.wrapper{
+    position: relative;
+    top: 50px;
+    margin-left: 50px;
+}
+.content_one{
+    position: relative;
+    left: 116px;
+    top: 40px;
+    font-family: 'Catamaran',sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+    letter-spacing: 5px;
+}
+.content_two{
+    font-size: 76px;
+    font-family: 'Catamaran',sans-serif;
+    letter-spacing: 5px;
+    padding-left: 120px;
+    color: #9E9E9E;;
+}
+.content_three{
+    font-size: 18px;
+    font-family: 'Catamaran',sans-serif;
+    padding-left: 122px;
+    color: #000;;
+    letter-spacing: 2px;
+}
+.four{
+    padding-left: 120px;
+}
+.button{
+    font-family: 'Catamaran',sans-serif;
+    background-color: #7749FB;
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 12px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.right{
+    position: absolute;
+    left: 65%;
+    top: 0%;
+}

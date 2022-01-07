@@ -3,15 +3,19 @@ import styles from "../styles/Homepage.module.css";
 import Image from "next/image";
 const Homepage = () => {
   return (
-    <>
-      <div>Your Own</div>
-      <div>E-commerce Site</div>
-      <div>Hello there! Welcome. Lets create a ecommerce site for you</div>
-      <div>Learn More</div>
-      <div>
-        <Image src="/img/illus-logo.png" width={640} height={340} />
+    <div className={styles.wrapper}>
+      <div className={styles.content_one}>Your Own</div>
+      <div className={styles.content_two}>E-commerce Site</div>
+      <div className={styles.content_three}>
+        Hello there! Welcome. Lets create an e-commerce site for you.
       </div>
-    </>
+      <div className={styles.four}>
+        <button className={styles.button}>LEARN MORE</button>
+      </div>
+      <div className={styles.right}>
+        <Image src="/img/illus-logo.png" width={400} height={300} />
+      </div>
+    </div>
   );
 };
 
