@@ -10,7 +10,7 @@ const Homepage = () => {
         Hello there! Welcome. Lets create an e-commerce site for you.
       </div>
       <div className={styles.four}>
-        <button className={styles.button}>LEARN MORE</button>
+        <button className={styles.button}>Learn More</button>
       </div>
       <div className={styles.right}>
         <Image src="/img/illus-logo.png" width={400} height={300} />

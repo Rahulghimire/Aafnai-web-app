@@ -1,7 +1,9 @@
 .wrapper{
+    /* background-color: black; */
     position: relative;
     top: 50px;
     margin-left: 50px;
+    height: 100vh;
 }
 .content_one{
     position: relative;
@@ -16,7 +18,7 @@
     font-size: 76px;
     font-family: 'Catamaran',sans-serif;
     letter-spacing: 5px;
-    padding-left: 120px;
+    padding-left: 118px;
     color: #9E9E9E;;
 }
 .content_three{
@@ -42,6 +44,14 @@
     cursor: pointer;
     border-radius: 8px;
 }
+.button:hover{
+    background-color: #1100f8;
+}
+.button:active {
+    background-color: #1100f8;
+    box-shadow: 0 2px rgb(18, 36, 71);
+    transform: translateY(4px);
+  }
 .right{
     position: absolute;
     left: 65%;
