@@ -11,20 +11,20 @@ const Navbar = () => {
       </div>
       <div className={styles.item}>
         <ul className={styles.list}>
-          <Link href="/home/">
+          <Link href="/">
             <a className={styles.listItem}>Home</a>
           </Link>
-          <Link href="/shop">
+          <Link href="/shop/">
             <a className={styles.listItem}>Shop</a>
           </Link>
-          <Link href="/about">
+          <Link href="/about/">
             <a className={styles.listItem}>About Us</a>
           </Link>
-          <Link href="/contact">
+          <Link href="/contact/">
             <a className={styles.listItem}>Contact Us</a>
           </Link>
           <div className={styles.login}>
-            <Link href="/login">
+            <Link href="/login/">
               <a className={styles.button_1}>LogIn / SignUp</a>
             </Link>
           </div>
