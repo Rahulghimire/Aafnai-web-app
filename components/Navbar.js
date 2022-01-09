@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-        <Image src="/img/aafnailogo.png" alt="" width={100} height={100} />
+        <Image src="/img/logo.png" alt="" width={40} height={40} />
       </div>
       <div className={styles.item}>
         <ul className={styles.list}>

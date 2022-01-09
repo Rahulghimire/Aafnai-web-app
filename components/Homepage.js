@@ -13,7 +13,7 @@ const Homepage = () => {
         <button className={styles.button}>Learn More</button>
       </div>
       <div className={styles.right}>
-        <Image src="/img/illus-logo.png" width={400} height={300} />
+        <Image src="/img/illus.png" width={420} height={320} />
       </div>
     </div>
   );

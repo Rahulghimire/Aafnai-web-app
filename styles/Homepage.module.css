@@ -47,14 +47,9 @@
 .button:hover{
     background-color: #1100f8;
 }
-.button:active {
-    background-color: #1100f8;
-    box-shadow: 0 2px rgb(18, 36, 71);
-    transform: translateY(4px);
-  }
 .right{
     position: absolute;
-    left: 65%;
-    top: 0%;
+    left: 60%;
+    top: 55px;
 }
 
